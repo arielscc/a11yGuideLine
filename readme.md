@@ -1,12 +1,4 @@
-<<<<<<< HEAD
 # Guía de accesibilidad para la web
-=======
-<<<<<<< HEAD
-# Guía de accesibilidad para la web
-=======
-#Guía de accesibilidad para la web
->>>>>>> 733205d07c7a89ebe45bfbb05b04ecbb5e96a2ee
->>>>>>> 6f7bb5a2f504079b897edace3edb0b6c9a17160a
 
 ## Que es la accesibilidad.
 
