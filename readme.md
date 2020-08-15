@@ -1,3 +1,11 @@
+# Guía de accesibilidad para la web
+
+## Que es la accesibilidad.
+
+Es la práctica continua de asegurarnos que todo lo que creamos para la web se puede usar, interpretar y operar por una variedad de personas en una variedad de situaciones.
+
+## WCAG y sus criteros de conformidad.
+
 WACG. Es una división perteneciente a la w3c la cual regula los estandares de accesibilidad en la web. Tambien son pertenecientes a la WAI (Web Accesibility Initiative) dentro de la W3C.
 
 WACG presenta 12 criterios de conformidad que todos los productos digitales en la web deberian cumplir, estos criterios se dividen en tres niveles de trabajo en el ambito de accesibilidad:
