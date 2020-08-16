@@ -91,3 +91,33 @@ Combinaciones de lectores de pantalla y navegadores:
 El HTML Semántico no solo nos ayuda con algunos aspectos de presentación si no que tambien le agrega un significado al contendio.
 
 ![HTMLSemantico](./images/others/html-semantico.jpg)
+
+## ARIA - Accessible Rich Internet Applications
+
+Es un conjuto de atributos especiales para accesibilidad que se añaden a cualquier etiqueta, pero especiamente adaptado a HTML.
+
+consta de tres atributos:
+
+### Roles
+
+Definen el tipo general del objeto (como un artículo una alerta o un deslizador).
+Los roles le comunican al navegadores cuales son las interacciones que debería esperar y cómo se va a usar este objeto en nuestro proyecto. Se usan en situaciones muy especificas, es mejor depender del HTML semántico para comunicar los roles.
+
+### Propiedades
+
+Comunican atributos que son esenciales para el comportamiento o significado de un elemento pero que suelen comunicar visualmente.
+
+Existe un atributo importante para los label que es el atributo for, Funciona del la siguiente manera:
+
+```html
+<label class="form-label" for="name">Nombre</label>
+<input type="text" aria-label="nombre" id="name" />
+```
+
+Esto lo que hace es unir el label con el componente input por medio de su id, y su finalidad es direccionar al usuario al input al dar click en el label.
+
+### Estados
+
+Comunican estados y cambios de estados en elementos que se suelen comunicar visualmente.
+
+Añadimos a la etiqueta de <li> el atributo: aria-hidden=“true” para que el lector de pantalla solo lea los elementos visibles en el estado actual de la página.
