@@ -50,3 +50,44 @@ Dan alternativas a las existentes, para mejorar la persepcion de las cosas que n
 - Motoras
   - Varillas Bucales
   - Switch
+
+## Pruebas con simuladores de discapacidades visuales
+
+Para pruebas visuales de un proyecto se deben utilizar algunos complementos o extensiones, estas nos ayudaran a ver la aplicacion con los ojos de personas que sufren de ciertas discapacidades visuales como:
+
+- Visión borrosa
+- [Protanopia](https://es.wikipedia.org/wiki/Protanopia)
+- [Deuteranopia](https://es.wikipedia.org/wiki/Deuteranopia)
+- [Acromatopsia](https://es.wikipedia.org/wiki/Acromatopsia)
+
+### Usando herramienta de testeo de chrome
+
+![herramienta de testeo de visión](./images/others/imagen.jpg)
+
+## Pruebas manuales con tu teclado
+
+El teclado es muy importante en la accesibilidad web porque las tecnologías asistivas tienden a conectarse con el teclado para darle a sus usuarios diferentes maneras de navegar cuando no tienen acceso a un mouse o un teclado como nosotros.
+
+Los elementos que reciben foco de teclado son elementos interacctivos:
+
+**Enlaces**: nos llevan a otra página, son para la navegación.
+**Botones**: nos ayudan a interactuar con la página de alguna manera.
+**Formularios**: requieren nuestra interacción para llenar nuestros datos.
+Los **div** no reciben foco porque son un elemento presentacional, no esperan ninguna interacción a menos de que tú lo programes.
+
+## Pruebas manuales con lectores de pantalla
+
+Los lectores de pantalla son programas que mapean una aplicacion y las leen en voz alta, son usadas por personas que no tienen buenas capacidades visales
+
+Combinaciones de lectores de pantalla y navegadores:
+
+- NVDA - Mozilla Firefox
+- JAWS - Internet Explorer
+- VoiceOver - Safari
+- ChromeVox - Google Chrome
+
+## HTML Semántico
+
+El HTML Semántico no solo nos ayuda con algunos aspectos de presentación si no que tambien le agrega un significado al contendio.
+
+![HTMLSemantico](./images/others/html-semantico.jpg)
